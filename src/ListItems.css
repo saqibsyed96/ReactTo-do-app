@@ -1,0 +1,39 @@
+.list {
+    color: #fff;
+    background-color: #bf07ac;
+    width: 330px;
+    height: 60px;
+    margin: 30px auto;
+    border-radius: 5px;
+}
+
+.list p {
+    padding: 10px;
+    position: relative;
+}
+
+.list p span{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+.faicons {
+    margin: 0 5px;
+    font-size: 15px;
+    padding-top: 12px;
+
+}
+
+.list p textarea {
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+    font-size: 18px;
+    overflow: hidden;
+    resize: none;
+
+}
+.list p textarea:focus {
+    outline: none;
+}
